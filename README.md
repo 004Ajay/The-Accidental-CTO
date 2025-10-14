@@ -43,8 +43,8 @@ This is the stuff no textbook teaches you.
 
 ### Who This Book Is For
 
-Whether you’re a **software engineer**, **architect**, or **startup founder**, I wrote this book to help you see distributed systems not as academic puzzles, but as **living, evolving machines** that you can build, operate, and grow.
+Whether you’re a **student**, **software engineer**, **architect**, or **startup founder**, I wrote this book to help you see distributed systems not as academic puzzles, but as **living, evolving machines** that you can build, operate, and grow.
 
 If you’ve ever wondered *how real companies actually scale* — not in theory, but in practice — this is my candid, first-hand story.
 
-And maybe, just maybe, you’ll find a bit of yourself in *The Accidental CTO*.
+And maybe, just maybe, you’ll find a bit of yourself in **_The Accidental CTO_**.
