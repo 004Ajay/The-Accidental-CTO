@@ -1,12 +1,14 @@
-This file is named as README to see the figures rendered o
+This file is named as README to see the figures rendered
+
+The diagram below is for test only, not useful.
 
 ```mermaid
-%%{init: {'flowchart': {'htmlLabels': false}}}%%
+%%{init: {'flowchart': {'htmlLabels': false,}}}%%
 graph TD
     subgraph Phase 1: The Monolith Era
         direction LR
         
-        %% Nodes (Shapes/Conceptual Components)
+        %% Nodes
         A[User]
         B((PostgreSQL DB))
         C[Nginx/LB]
