@@ -1,4 +1,4 @@
-Currently I am at [The Traffic Cop - Nginx as a Load Balancer](https://github.com/004Ajay/Rough/blob/main/Diagram/Diagram_Only.md#the-traffic-cop--nginx-as-a-load-balancer-pg-74)
+Currently I am at [The Traffic Cop - Nginx as a Load Balancer](https://github.com/004Ajay/The-Accidental-CTO/blob/main/Diagrams/Diagram_Only.md#the-traffic-cop---nginx-as-a-load-balancer-pg-74)
 
 > To render the Mermaid Diagrams locally in VS Code, you need to install [Mermaid Preview Extension](https://marketplace.visualstudio.com/items?itemName=vstirbu.vscode-mermaid-preview)
 
