@@ -1,39 +1,31 @@
-This file is named as README to see the figures rendered o
+Currently I am at [The Traffic Cop - Nginx as a Load Balancer](https://github.com/004Ajay/Rough/blob/main/Diagram/Diagram_Only.md#the-traffic-cop--nginx-as-a-load-balancer-pg-74)
 
-```mermaid
-%%{init: {'flowchart': {'htmlLabels': false}}}%%
-graph TD
-    subgraph Phase 1: The Monolith Era
-        direction LR
-        
-        %% Nodes (Shapes/Conceptual Components)
-        A[User]
-        B((PostgreSQL DB))
-        C[Nginx/LB]
-        D(Django Monolith App)
-        E(Django Monolith App 2)
-        
-        %% Chapter 1-2: Single Box (Monolith)
-        subgraph C1-2: Single Server
-            A -->|1. Request| D
-            D -->|2. Read/Write| B
-        end
-        
-        %% Chapter 3: The Great Divorce (App & DB Separation)
-        subgraph C3: App/DB Separation
-            D_sep(Django App Server)
-            B_sep((PostgreSQL DB Server))
-            A -->|1. Request| D_sep
-            D_sep -->|2. Read/Write| B_sep
-        end
-        
-        %% Chapter 4: The Traffic Cop (Load Balancing)
-        subgraph C4: Load Balancing
-            A -->|1. Request| C
-            C --Round Robin--> D_lb(Monolith Instance 1)
-            C --Round Robin--> E(Monolith Instance 2)
-            D_lb -->|2. Read/Write| B_sep
-            E -->|2. Read/Write| B_sep
-        end
-    end
-```
+> To render the Mermaid Diagrams locally in VS Code, you need to install [Mermaid Preview Extension](https://marketplace.visualstudio.com/items?itemName=vstirbu.vscode-mermaid-preview)
+
+## Icons Info
+
+Icons are collected from 
+
+1. TechIcons (https://techicons.dev/)
+    
+    * Apache Kafka, Digital Ocean, Django, Docker, Kubernetes, Linux, Microsoft SQL Server, MySQL, NGINX, PostgresSQL, Python, Redis, and Ubuntu
+
+2. AWS-Icons (https://aws-icons.com/)
+
+    * CloudFront and EC2 
+
+3. Wikimedia Commons (https://commons.wikimedia.org/)
+
+    * Gunicorn
+
+<!-- **Missing Icons** -->
+
+<!-- 1. CDN -->
+
+---
+
+**See the "Diagram_With_Icons"**
+
+1. Clone this repository
+
+2. Open [Diagram_With_Icons/Dukaan_Stack.md](https://github.com/004Ajay/The-Accidental-CTO/blob/main/Diagrams/Diagram_With_Icons/Dukaan_Stack.md)

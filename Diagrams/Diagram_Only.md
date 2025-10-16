@@ -33,7 +33,7 @@ sequenceDiagram
     Shop Owner-->>Customer: total bill amount
     Shop Owner-->>Customer: errors (eg: item out of stock)
     Customer-)Shop Owner: replace / cancel item
-    Shop Owner-->>Customer: renewed bill
+    Shop Owner-->>Customer: new bill
     Customer-)Shop Owner: payment screenshot
     Shop Owner-->>Customer: order status
 
@@ -92,7 +92,7 @@ end
 
 ---
 
-## The Traffic Cop (Nginx Load Balancing) (pg 74)
+## The Traffic Cop - Nginx as a Load Balancer (pg 74)
 
 ```mermaid
 %%{init: {'flowchart': {'htmlLabels': false,}}}%%

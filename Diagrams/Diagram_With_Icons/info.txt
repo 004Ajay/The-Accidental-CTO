@@ -1,3 +1,0 @@
-File to make the parent folder visible.
-
-In this folder, the diagram with colored icons will be created and updated.
