@@ -8,6 +8,10 @@ Icons are collected from
 
     * CloudFront and EC2 
 
+3. Wikimedia Commons (https://commons.wikimedia.org/)
+
+    * Gunicorn
+
 _both of these sites allow freedom to use their icons for public facing works_
 
 ---
